@@ -1,0 +1,11 @@
+function isDigit(char) {
+    return char >= '0' && char <= '9';
+}
+
+function containsOnlyDigits(str) {
+    return str.split('').every(isDigit);
+}
+
+console.log(containsOnlyDigits("123")); // Output: true
+console.log(containsOnlyDigits("123abc")); // Output: false
+// Nikunj Sonigara
