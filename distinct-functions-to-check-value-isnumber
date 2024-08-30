@@ -8,4 +8,4 @@ function containsOnlyDigits(str) {
 
 console.log(containsOnlyDigits("123")); // Output: true
 console.log(containsOnlyDigits("123abc")); // Output: false
-// Nikunj Sonigara
+//Alvieri 
